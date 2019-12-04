@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import StatefullComponent from './container/StatefullComponent'
+import Youtube from './container/Youtube/Youtube'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<StatefullComponent />, document.getElementById('root'));
+ReactDOM.render(<Youtube />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
