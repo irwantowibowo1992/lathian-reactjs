@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import StatelessComponent from './component/StatelessComponent'
+import StatefullComponent from './container/StatefullComponent'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<StatelessComponent />, document.getElementById('root'));
+ReactDOM.render(<StatefullComponent />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
