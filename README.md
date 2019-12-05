@@ -1,3 +1,3 @@
-### Available Scripts
+### Update parent component oleh child component
 
-konsepnya adalah ada dua komponent yaitu header dan form input yang menampilkan nilai state. Terdapat dua button tambah dan kurang. Jika masing-masing dari tombol tersebut ditekan maka nilai header dan form input juga akan berubah sesuai dengan jenis tombol yang ditekan.
+Materi ini kita memmecah komponen menjadi komponen lebih kecil sehingga kodenya akan menjadi lebih rapi dan mudah dibaca. Namun jika hanya dipindah begitu saja akan terjadi masalah yaitu ketika komponen child merubah value maka di komponen parent tidak berubah. Untuk bisa merubahnya jawabannya ada di sini.
